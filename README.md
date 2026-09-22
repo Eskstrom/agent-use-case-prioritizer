@@ -1,26 +1,30 @@
 # Agent Use-Case Prioritizer
 
+**Status: Concept brief.** The features below are proposed; this repository does not yet contain an implemented application or measured results.
+
+[Portfolio](https://eskstrom.github.io/) · [Related projects](https://eskstrom.github.io/?category=tools-play#library)
+
 ## Product brief
 
 An interactive scoring tool that helps product teams decide whether a workflow should be automated, augmented with AI, or deliberately declined.
 
-## Why this belongs in your portfolio
+## Design focus
 
-It makes your Penguin.ai use-case selection and governance work visible as a practical decision product.
+A transparent rubric for choosing automation, assistance, or no intervention.
 
-## MVP
+## Proposed scope
 
 - Workflow intake form: user value, frequency, data access, error cost, trust, integration effort.
 - Weighted rubric with editable weights.
 - Recommendation: automate, augment, investigate, or decline.
 - Decision record listing assumptions and required guardrails.
 
-## Success measures
+## Validation targets
 
 - Every recommendation is traceable to inputs.
 - Compare several sample workflows and explain prioritization trade-offs.
 
-## Suggested stack
+## Potential implementation
 
 TypeScript, Next.js, SQLite/Supabase.
 
@@ -28,6 +32,4 @@ TypeScript, Next.js, SQLite/Supabase.
 
 Do not present the score as a universal truth; label it as a configurable prioritization aid.
 
-## Chat kickoff
-
-“Build the Agent Use-Case Prioritizer. Include editable scoring weights, decision explanations, and four realistic sample workflows.”
+[Implementation planning notes](notes/IMPLEMENTATION-NOTES.md)
