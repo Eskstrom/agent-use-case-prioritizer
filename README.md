@@ -33,3 +33,23 @@ TypeScript, Next.js, SQLite/Supabase.
 Do not present the score as a universal truth; label it as a configurable prioritization aid.
 
 [Implementation planning notes](notes/IMPLEMENTATION-NOTES.md)
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Recommend consolidation before further standalone development.
+
+Preserve the workflow scoring rubric, assumptions and alternative choices within Enterprise LLM Model Hub.
+
+### Next scope
+
+- [ ] Inventory unique requirements and planning notes before moving anything.
+- [ ] Use Enterprise LLM Model Hub as the proposed destination; record the destination and retained source history after an actual migration.
+- [ ] Update incoming portfolio links before considering archive status. No consolidation or archival is implied by this planning note.
+
+### Validation and decision criteria
+
+Explain one automate, augment or decline decision and how changing an assumption alters it. Reopen a standalone PRD only if user discovery establishes a distinct problem that the retained project cannot cover.
+<!-- portfolio-future-plans:end -->
